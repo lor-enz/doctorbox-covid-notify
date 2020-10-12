@@ -2,10 +2,10 @@
 A script that automatically checks doctorbox if a covid test result is available.
 
 ## Setup: ##
-
+```bash
 conda install selenium
 conda install pillow
-
+```
 ## How to use ##
 
 Run the file with python and give it 5 arguments in the correct order.

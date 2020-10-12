@@ -25,8 +25,9 @@ You're are born of 24 of december in 1990
 Your test ID is 1337424242 
 and you want to receive emails on: max@mustermann.de
 
+```bash
 python check.py max@mustermann.de 1337424242 24 12 1990
-
+```
 ### Running on a schedule ###
 
 The script will run just the one time. It includes no functionality to check on a schedule. I suggest running it on a cronjob on a linux machine.

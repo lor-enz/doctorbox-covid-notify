@@ -2,6 +2,9 @@
 A script that automatically checks doctorbox if a covid test result is available.
 
 ## Setup: ##
+
+The script requires selenium and pillow
+
 ```bash
 conda install selenium
 conda install pillow
@@ -24,6 +27,7 @@ and you want to receive emails on: max@mustermann.de
 
 python check.py max@mustermann.de 1337424242 24 12 1990
 
+### Running on a schedule ###
 
 The script will run just the one time. It includes no functionality to check on a schedule. I suggest running it on a cronjob on a linux machine.
 
@@ -32,7 +36,7 @@ Create a script called run-covid-check.py with the content
 ```bash
 #!/bin/sh
 
-<path to your python3> <path to the check.py file>
+<path to your python3> <path to the check.py file> <email> <testID> <day> <month> <year>
 ```
 
 then edit the crontab with 

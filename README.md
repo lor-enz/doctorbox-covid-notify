@@ -5,10 +5,13 @@ A script that automatically checks doctorbox if a covid test result is available
 
 The script requires selenium and pillow
 
+if using conda:
 ```bash
 conda install selenium
 conda install pillow
 ```
+pip should also work.
+
 ## How to use ##
 
 Open check.config and insert your e-mail server settings so the script can send out emails, instructions are inside the file.
@@ -23,7 +26,7 @@ The arguments are:
 
 ### Example: ###
 
-You're are born of 24 of december in 1990
+You're are born on the 24th of december in 1990
 Your test ID is 1337424242 
 and you want to receive emails on: max@mustermann.de
 

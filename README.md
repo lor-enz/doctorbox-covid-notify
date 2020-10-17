@@ -11,6 +11,8 @@ conda install pillow
 ```
 ## How to use ##
 
+Open check.config and insert your e-mail server settings so the script can send out emails, instructions are inside the file.
+
 Run the file with python and give it 5 arguments in the correct order.
 The arguments are: 
 * an email adress, that will be used to notify you when a result is available.

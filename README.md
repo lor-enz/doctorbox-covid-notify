@@ -3,7 +3,7 @@ A script that automatically checks doctorbox if a covid test result is available
 
 ## Setup: ##
 
-The script requires selenium and pillow
+The script requires selenium and pillow (pillow - Python Imaging Library - could be removed. But it's useful for occasional checks if the script is working)
 
 if using conda:
 ```bash
